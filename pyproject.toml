@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iithlp"
+version = "0.1.0"
+description = "A CLI tool to convert Indic scripts to Extended SLP1 (or other tasks)"
+authors = [
+  { name="Your Name", email="you@example.com" }
+]
+dependencies = []
+
+# Define a console script entry point so that installing this package
+# provides a command called `iithlp` on the command line.
+[project.scripts]
+iithlp = "iithlp.cli:main"
