@@ -1,17 +1,23 @@
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools>=42", "wheel", "build"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "iithlp"
-version = "0.1.0"
-description = "A CLI tool to convert Indic scripts to Extended SLP1 (or other tasks)"
+name = "iithlp"                          # The name on PyPI
+version = "0.1.0"                        # Increase for new releases
+description = "Transliteration of Indic scripts to IITHLP"
 authors = [
-  { name="Your Name", email="you@example.com" }
+  { name="Ramanan Sivasubramanian", email="ramanan93@gmail.com" }
+]
+readme = "README.md"                     # or "README.rst"
+license = { file="LICENSE" }
+keywords = ["transliteration", "SLP1", "indic", "iithlp"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
 ]
 dependencies = []
 
-# Define a console script entry point so that installing this package
-# provides a command called `iithlp` on the command line.
 [project.scripts]
-iithlp = "iithlp.cli:main"
+iithlp = "iithlp.cli:main"               # So you can run "iithlp" from CLI
