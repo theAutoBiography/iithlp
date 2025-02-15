@@ -12,16 +12,12 @@ def create_mapping_dataframe():
         'gurmukhi': sanscript.GURMUKHI  # Punjabi script
     }
     
-    # Read existing mappings
     existing_df = pd.read_csv('mappings.csv')
     
-    # Create new dataframe with existing Roman column
     new_mappings = {'Roman': existing_df['Roman']}
     
-    # Add new script columns
     for script_name, script_code in scripts.items():
         try:
-            # Convert Devanagari to target script
             new_column = []
             for _, row in existing_df.iterrows():
                 if pd.isna(row['Devanagari']):
@@ -42,10 +38,8 @@ def create_mapping_dataframe():
         except Exception as e:
             print(f"Error processing {script_name}: {str(e)}")
     
-    # Create new dataframe
     new_df = pd.DataFrame(new_mappings)
     
-    # Save to CSV
     new_df.to_csv('extended_mappings.csv', index=False)
     return new_df
 
