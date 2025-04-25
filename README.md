@@ -6,21 +6,33 @@ A comprehensive transliteration scheme for Indian languages with a strict one-to
 
 IITHLP is a Python package that provides a comprehensive transliteration scheme for 9 major Indian scripts covering 21 scheduled Indian languages. It ensures a strict one-to-one mapping between each Indic character and a single Roman character (with diacritics as needed), ensuring perfect reversibility while maintaining phonetic similarity.
 
-## Supported Scripts
+## Supported Scripts and Languages
 
-The package supports the following 9 scripts:
+IITHLP v0.2.0 provides comprehensive transliteration support for 11 Indian scripts covering 19 of the 22 scheduled Indian languages:
 
-1. **Devanagari** (Hindi, Marathi, Sanskrit, Nepali, Konkani, Bodo, Maithili, Dogri)
-2. **Bengali** (Bengali, Assamese)
-3. **Tamil**
-4. **Malayalam**
-5. **Telugu**
-6. **Kannada**
-7. **Gurmukhi** (Punjabi)
-8. **Gujarati**
-9. **Odia**
+| Script | Languages |
+|--------|-----------|
+| Devanagari | Hindi, Sanskrit, Marathi, Nepali, Konkani, Bodo, Maithili, Dogri |
+| Bengali | Bengali, Assamese |
+| Tamil | Tamil |
+| Malayalam | Malayalam |
+| Telugu | Telugu |
+| Kannada | Kannada |
+| Gurmukhi | Punjabi |
+| Gujarati | Gujarati |
+| Odia | Odia |
+| Ol Chiki | Santali |
+| Meitei Mayek | Manipuri |
 
-Note: Urdu is currently not supported in this version.
+### Languages Not Covered
+
+The following scheduled Indian languages are not currently supported:
+
+- Urdu (uses Perso-Arabic script)
+- Kashmiri (primarily uses Perso-Arabic script)
+- Sindhi (uses Perso-Arabic script)
+
+All supported scripts feature a strict one-to-one mapping between each Indic character and a single Roman character (with diacritics as needed), ensuring perfect reversibility while maintaining phonetic similarity.
 
 ## Features
 
@@ -122,6 +134,8 @@ The mapping scheme follows these principles:
 
 MIT License
 
-## Acknowledgements
+## Acknowledgements and Ownership
 
-This package is an extension of the original IITHLP package, with comprehensive support for 9 major Indian scripts and a strict one-to-one mapping scheme.
+This package is a product of work from the department of Heritage Science and Technology, IIT Hyderabad. 
+It provides comprehensive support for 9 major Indian scripts and a strict one-to-one mapping scheme. 
+For any concerns please raise an issue on the github repository. You may reach out to the author at ramanan93'at'gmail'dot'com.
