@@ -4,7 +4,7 @@ A comprehensive transliteration scheme for Indian languages with a strict one-to
 
 ## Overview
 
-IITHLP is a Python package that provides a comprehensive transliteration scheme for 9 major Indian scripts covering 21 scheduled Indian languages. It ensures a strict one-to-one mapping between each Indic character and a single Roman character (with diacritics as needed), ensuring perfect reversibility while maintaining phonetic similarity.
+IITHLP is a Python package that provides a comprehensive transliteration scheme for 9 major Indian scripts covering 19 scheduled Indian languages. It ensures a strict one-to-one mapping between each Indic character and a single Roman character (with diacritics as needed), ensuring perfect reversibility while maintaining phonetic similarity.
 
 ## Supported Scripts and Languages
 
