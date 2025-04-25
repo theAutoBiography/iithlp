@@ -42,7 +42,7 @@ pip install iithlp
 ### Basic Usage
 
 ```python
-from iithlp_extended_without_urdu import to_roman, to_script
+from iithlp import to_roman, to_script
 
 # Transliterate from an Indian script to Roman
 roman_text = to_roman("नमस्ते दुनिया")  # Devanagari
@@ -56,7 +56,7 @@ print(devanagari_text)  # "नमस्ते दुनिया"
 ### Script Detection
 
 ```python
-from iithlp_extended_without_urdu import IITHLP
+from iithlp import IITHLP
 
 # Create a transliterator instance
 transliterator = IITHLP()
@@ -70,7 +70,7 @@ print(detected_script)  # 'kannada'
 ### Getting Supported Scripts
 
 ```python
-from iithlp_extended_without_urdu import get_supported_scripts
+from iithlp import get_supported_scripts
 
 # Get all supported scripts
 scripts = get_supported_scripts()
