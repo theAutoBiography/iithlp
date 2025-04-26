@@ -8,7 +8,7 @@ IITHLP is a Python package that provides a comprehensive transliteration scheme 
 
 ## Supported Scripts and Languages
 
-IITHLP v0.2.1 provides comprehensive transliteration support for 11 Indian scripts covering 19 of the 22 scheduled Indian languages:
+IITHLP v0.2.2 provides comprehensive transliteration support for 11 Indian scripts covering 19 of the 22 scheduled Indian languages:
 
 | Script | Languages |
 |--------|-----------|

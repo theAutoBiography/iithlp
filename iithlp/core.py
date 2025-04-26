@@ -1,6 +1,6 @@
 """
 IITHLP - Indian Institute of Technology Hyderabad Language Processing
-Version 0.2.1
+Version 0.2.2
 
 A comprehensive transliteration scheme for Indian languages with a strict one-to-one character mapping.
 """
