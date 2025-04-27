@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="iithlp",
-    version="0.2.2",
+    version="0.2.3",
     author="Ramanan S",
     author_email="ramanan93@gmail.com",
     description="A comprehensive transliteration scheme for Indian languages",

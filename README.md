@@ -4,11 +4,11 @@ A comprehensive transliteration scheme for Indian languages with a strict one-to
 
 ## Overview
 
-IITHLP is a Python package that provides a comprehensive transliteration scheme for 9 major Indian scripts covering 19 scheduled Indian languages. It ensures a strict one-to-one mapping between each Indic character and a single Roman character (with diacritics as needed), ensuring perfect reversibility while maintaining phonetic similarity.
+IITHLP is a Python package that provides a comprehensive transliteration scheme for 9 major Indian scripts covering 17 scheduled Indian languages. It ensures a strict one-to-one mapping between each Indic character and a single Roman character (with diacritics as needed), ensuring perfect reversibility while maintaining phonetic similarity.
 
 ## Supported Scripts and Languages
 
-IITHLP v0.2.2 provides comprehensive transliteration support for 11 Indian scripts covering 19 of the 22 scheduled Indian languages:
+IITHLP v0.2.2 provides comprehensive transliteration support for 9 Indian scripts covering 17 of the 22 scheduled Indian languages:
 
 | Script | Languages |
 |--------|-----------|
@@ -21,8 +21,6 @@ IITHLP v0.2.2 provides comprehensive transliteration support for 11 Indian scrip
 | Gurmukhi | Punjabi |
 | Gujarati | Gujarati |
 | Odia | Odia |
-| Ol Chiki | Santali |
-| Meitei Mayek | Manipuri |
 
 ### Languages Not Covered
 
@@ -31,6 +29,8 @@ The following scheduled Indian languages are not currently supported:
 - Urdu (uses Perso-Arabic script)
 - Kashmiri (primarily uses Perso-Arabic script)
 - Sindhi (uses Perso-Arabic script)
+- Santli (uses Ol Chiki script)
+- Manipuri (uses Meitei Mayek script)
 
 All supported scripts feature a strict one-to-one mapping between each Indic character and a single Roman character (with diacritics as needed), ensuring perfect reversibility while maintaining phonetic similarity.
 
@@ -110,10 +110,10 @@ The mapping scheme follows these principles:
 | ī     | ई          | ঈ       | ஈ     | ഈ         | ఈ      | ಈ       | ਈ        | ઈ        | ଈ    |
 | u     | उ          | উ       | உ     | ഉ         | ఉ      | ಉ       | ਉ        | ઉ        | ଉ    |
 | ū     | ऊ          | ঊ       | ஊ     | ഊ         | ఊ      | ಊ       | ਊ        | ઊ        | ଊ    |
-| e     | ए          | এ       | எ     | എ         | ఎ      | ಎ       | ਏ        | એ        | ଏ    |
-| ê     | ऐ          | ঐ       | ஐ     | ഐ         | ఐ      | ಐ       | ਐ        | ઐ        | ଐ    |
-| o     | ओ          | ও       | ஒ     | ഒ         | ఒ      | ಒ       | ਓ        | ઓ        | ଓ    |
-| ô     | औ          | ঔ       | ஔ     | ഔ         | ఔ      | ಔ       | ਔ        | ઔ        | ଔ    |
+| e     | -          | এ       | எ     | എ         | ఎ      | ಎ       | ਏ        | એ        | ଏ    |
+| ê     | ए          | ঐ       | ஐ     | ഐ         | ఐ      | ಐ       | ਐ        | ઐ        | ଐ    |
+| o     | -          | ও       | ஒ     | ഒ         | ఒ      | ಒ       | ਓ        | ઓ        | ଓ    |
+| ô     | ओ          | ঔ       | ஔ     | ഔ         | ఔ      | ಔ       | ਔ        | ઔ        | ଔ    |
 
 #### Consonants (Sample)
 
